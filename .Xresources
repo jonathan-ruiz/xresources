@@ -1,11 +1,11 @@
-Xft.dpi:100 
+Xft.dpi: 150 
 !!Xft.autohint: 0
 !!Xft.lcdfilter:  lcddefault
 !!Xft.hintstyle:  hintfull
 !!Xft.hinting: 1
 Xft.antialias: true 
 !!Xft.rgba: rgb
-
+Xft.size: 64
 ! special
 *.foreground:   #f1ebeb
 *.background:   #000000
@@ -45,7 +45,7 @@ Xft.antialias: true
 
 
 URxvt.font: \
-            xft:Fira Code,Fira Code Medium:style=Medium,Regular
+            xft:Fira Code:style=Medium,Regular
 
 URxvt.boldFont: \
             xft:Fira Code:style=Bold

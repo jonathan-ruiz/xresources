@@ -1,0 +1,79 @@
+Xft.dpi:100 
+!!Xft.autohint: 0
+!!Xft.lcdfilter:  lcddefault
+!!Xft.hintstyle:  hintfull
+!!Xft.hinting: 1
+Xft.antialias: true 
+!!Xft.rgba: rgb
+
+! special
+*.foreground:   #f1ebeb
+*.background:   #000000
+*.cursorColor:  #f1ebeb
+
+! black
+*.color0:       #48483e
+*.color8:       #76715e
+
+! red
+*.color1:       #dc2566
+*.color9:       #fa2772
+
+! green
+*.color2:       #8fc029
+*.color10:      #a7e22e
+
+! yellow
+*.color3:       #d4c96e
+*.color11:      #e7db75
+
+! blue
+*.color4:       #55bcce
+*.color12:      #66d9ee
+
+! magenta
+*.color5:       #9358fe
+*.color13:      #ae82ff
+
+! cyan
+*.color6:       #56b7a5
+*.color14:      #66efd5
+
+! white
+*.color7:       #acada1
+*.color15:      #cfd0c2
+
+
+URxvt.font: \
+            xft:Fira Code,Fira Code Medium:style=Medium,Regular
+
+URxvt.boldFont: \
+            xft:Fira Code:style=Bold
+
+URxvt.intensityStyles: false
+
+URxvt.perl-ext-common: url-select,keyboard-select,resize-font,matcher,selection-to-clipboard,readline
+
+URxvt.keysym.C-minus:  resize-font:smaller
+URxvt.keysym.C-plus:   resize-font:bigger
+URxvt.keysym.C-equal:  resize-font:equal
+
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+URxvt.keysym.M-u: perl:matcher:select
+URxvt.url-select.launcher: firefox
+!URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.underline: true
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.scrollstyle: plain
+
+!URxvt.scrollBar: false
+URxvt.scrollBar_right: true
+
+URxvt*transparent: true
+URxvt*shading: 30
+
+!! True transparency
+!URxvt*depth: 32
+!URxvt.background: [90]#2E3440
